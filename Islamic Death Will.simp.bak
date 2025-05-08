@@ -6,8 +6,26 @@
     <description />
   </meta>
   <counters models="1">
-    <entity-names />
-    <entity-ids />
+    <entity-names>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
@@ -73,12 +91,23 @@
           </authors>
           <description />
           <creation-date>05/08/2025 12:17:00</creation-date>
-          <change-date>05/08/2025 12:17:00</change-date>
+          <change-date>05/08/2025 12:36:44</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
-        <abstract-items />
-        <layer id="74ec7b3c61a3441ca5c9215d7aa7842c" name="Default" visible="true" enabled="true" locked="false" />
+        <abstract-items>
+          <item id="5ece0053127a4c5e93e7c304883d419f" cid="AC001" type="actor" name="Actor1" creator="" creation-date="05/08/2025 12:36:39" />
+          <item id="713eff5fb6d640f0ab1f62df63e78c20" cid="SYS001" type="system-boundary" name="System1" creator="" creation-date="05/08/2025 12:36:44" />
+        </abstract-items>
+        <layer id="74ec7b3c61a3441ca5c9215d7aa7842c" name="Default" visible="true" enabled="true" locked="false">
+          <item id="5ece0053127a4c5e93e7c304883d419f" iid="38d54e5db54c486a84fb6e389cb1ddd9" creation-date="05/08/2025 12:36:39" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="135" ay="132" awidth="50" aheight="100" x="135" y="132" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="713eff5fb6d640f0ab1f62df63e78c20" iid="e2c1eb8c66174be0960c58a87bc2f666" creation-date="05/08/2025 12:36:44" order-index="1" type="entity">
+            <layout ax="273" ay="36" awidth="300" aheight="400" x="273" y="36" width="300" height="400" expanded="273,36,300,400" collapsed="0,0,0,0" />
+          </item>
+        </layer>
       </diagram>
     </model>
   </models>
